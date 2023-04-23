@@ -7,9 +7,9 @@ const ingredients = [
   'Condiments',
 ];
 
-const list = document.querySelector("#ingredients");
+const list = document.querySelector('#ingredients');
 
-const itemEl = ingredients.map(ingredient => {
+const itemElement = ingredients.map(ingredient => {
 
   const item = document.createElement('li');
 
@@ -20,7 +20,7 @@ const itemEl = ingredients.map(ingredient => {
   return item;
 });
 
-list.append(...itemEl);
+list.append(...itemElement);
 
 
 // Напиши скрипт, який для кожного елемента масиву ingredients:
